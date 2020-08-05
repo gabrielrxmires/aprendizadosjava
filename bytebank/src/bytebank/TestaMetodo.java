@@ -7,7 +7,8 @@ public class TestaMetodo {
 		c1.deposita(1700);
 		c2.deposita(1000);
 
-		boolean conseguiu = c1.saca(155);
+		c1.saca(155);
+		c1.deposita(300);
 
 		if(c2.transfere(1001, c1)) {
 			System.out.println("transferencia concluida com sucesso!");
